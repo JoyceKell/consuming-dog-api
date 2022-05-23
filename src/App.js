@@ -1,9 +1,10 @@
-import Main from './pages/Main'
+import React from 'react';
+import RootElement from "./routes";
 
 function App() {
   return (
     <>
-    <Main/>
+     <RootElement/>
     </>
   );
 }
