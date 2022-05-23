@@ -1,9 +1,9 @@
-import Dog from './components/Dog'
+import Main from './pages/Main'
 
 function App() {
   return (
     <>
-    <Dog/>
+    <Main/>
     </>
   );
 }
