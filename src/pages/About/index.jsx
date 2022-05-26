@@ -1,7 +1,13 @@
+import { useParams } from "react-router-dom";
+import InfoDog from "../../components/InfoDog";
+
 export default function About() {
+  let { id } = useParams();
+
   return (
     <>
-      <div>aaaa about</div>
+      <InfoDog id={id} />
+      <div>voltar</div>
     </>
   );
 }
